@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context=".MainActivity"
+    android:orientation="vertical"
+    android:background="#92B865"
+    xmlns:android="http://schemas.android.com/apk/res/android" >
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="1500dp">
+
+        <TextView
+            android:id="@+id/ttt"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="35dp"
+            android:layout_marginTop="40dp"
+            android:background="#5EB6DD"
+            android:text="ongoing series and matches"
+            android:textAllCaps="true"
+            android:textSize="23dp"
+            android:textStyle="bold" />
+
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="3pt"
+            android:layout_marginTop="100dp"
+            android:background="@color/black" />
+
+
+        <Button
+            android:id="@+id/button"
+            android:layout_width="350dp"
+            android:layout_height="100dp"
+            android:layout_marginLeft="25dp"
+            android:layout_marginTop="150dp"
+            android:backgroundTint="#713C2B"
+            android:text="Match"
+            android:textSize="20dp"
+
+            android:textStyle="bold" />
+
+        <Button
+            android:id="@+id/button1"
+            android:layout_width="350dp"
+            android:layout_height="130dp"
+
+            android:layout_marginLeft="25dp"
+            android:layout_marginTop="400dp"
+            android:backgroundTint="#713C2B"
+            android:text="ONGOING SERIES"
+            android:textSize="20dp"
+
+
+            android:textStyle="bold" />
+
+
+        <Spinner
+            android:id="@+id/spinner"
+            android:layout_width="200dp"
+            android:layout_height="50dp"
+            android:layout_marginLeft="40dp"
+            android:layout_marginTop="300dp"
+            android:background="#436E11"
+            android:backgroundTint="#5EB6DD"
+
+
+            android:entries="@array/teamnames"
+            android:textStyle="bold" />
+
+
+    </RelativeLayout>
+</RelativeLayout>

@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+
+    tools:context="com.example.CricScores.news">
+
+
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+
+
+
+            <TextView
+                android:id="@+id/n1"
+
+                android:textSize="35dp"
+                android:textStyle="italic"
+                android:textColor="@color/black"
+                android:background="#EC5987"
+                android:layout_width="match_parent"
+                android:layout_height="200dp"/>
+
+
+            <Button
+                android:textStyle="bold"
+                android:id="@+id/btnn1"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:background="#5BDAF1"
+                android:text="click here for more info" />
+
+            <TextView
+                android:textStyle="italic"
+                android:textSize="35dp"
+
+                android:id="@+id/n2"
+                android:background="#5DD4D8"
+                android:layout_width="match_parent"
+                android:layout_height="200dp"/>
+
+
+            <Button
+                android:textStyle="bold"
+                android:id="@+id/btnn2"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:background="#DD645B"
+                android:text="click here for more info" />
+
+            <TextView
+                android:textStyle="italic"
+                android:textSize="35dp"
+
+                android:id="@+id/n3"
+                android:background="#A9F155"
+                android:layout_width="match_parent"
+                android:layout_height="200dp"/>
+
+            <Button
+                android:textStyle="bold"
+
+                android:id="@+id/btnn3"
+                android:background="#8BC34A"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:text="click here for more info" />
+
+
+            <TextView
+                android:textSize="35dp"
+                android:textStyle="italic"
+                android:id="@+id/n4"
+                android:background="#EFE751"
+                android:layout_width="match_parent"
+                android:layout_height="200dp"/>
+
+            <Button
+                android:textStyle="bold"
+
+                android:id="@+id/btnn4"
+                android:background="#981874"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:text="click here for more info" />
+
+
+
+
+        </LinearLayout>
+    </ScrollView>
+</androidx.constraintlayout.widget.ConstraintLayout>

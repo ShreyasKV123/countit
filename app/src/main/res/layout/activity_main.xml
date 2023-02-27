@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context=".MainActivity"
+    android:orientation="vertical"
+    android:background="#7C15A52C"
+
+    xmlns:android="http://schemas.android.com/apk/res/android" >
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="1500dp">
+
+
+        <ImageView
+            android:layout_width="307dp"
+            android:layout_height="352dp"
+            android:layout_marginLeft="50dp"
+            android:layout_marginTop="100dp"
+
+            android:src="@drawable/ind" />
+
+        <Button
+
+            android:id="@+id/b1"
+            android:layout_width="180dp"
+            android:layout_height="70dp"
+            android:layout_marginLeft="130dp"
+            android:layout_marginTop="550dp"
+            android:backgroundTint="@color/black"
+            android:text="cricscores"
+            android:textSize="17dp"
+            android:textStyle="italic" />
+
+
+
+
+    </RelativeLayout>
+</RelativeLayout>
